@@ -5,14 +5,46 @@ body {
 }
 
 h1 {
-    color: blueviolet;
+    color: rgb(239, 67, 255);
+    font-size: 4em;
+}
+
+p {
+    line-height: 1,5;
+    color: darkslategray;
+    font-size: 18px;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: black;
 }
 
 header {
+    background: linear-gradient(to bottom, rgb(246, 197, 238) 50%,white);
     padding: 40px;
     text-align: center;
+    background-color: rgb(246, 197, 238);
+    color: white;
 }
 
 main {
     padding: 30px;
+    margin: auto;
+}
+
+section {
+    background-color: ghostwhite;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+footer p{
+    background: linear-gradient(to bottom, white, rgb(246, 197, 238)50%);
+    padding: 30px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
 }
