@@ -31,6 +31,23 @@ header {
     color: white;
 }
 
+nav {
+    background-color: rgb(246, 197, 238);
+    padding: 16px;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: 700;
+}
+
+nav a:hover{
+    color: rgb(239, 67, 255);
+}
+
 main {
     padding: 30px;
     margin: auto;
@@ -43,9 +60,31 @@ section {
     border-radius: 10px;
     width: 60%;
 }
+.excusa{
+    background-color: #906c88;
+    padding: 20px;
+    margin-bottom: 16px;
+}
 
-.como{
-    background-color: pink
+.excusa h3{
+    color: white;
+    margin-top: 0;
+}
+.excusa p{
+    color: white;
+}
+
+
+#estado-del-sistema{
+    background-color: rgb(109, 108, 108)
+}
+
+#estado-del-sistema h2{
+    color: white;
+}
+
+#estado-del-sistema p{
+    color: white;
 }
 
 footer p{
