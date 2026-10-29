@@ -34,7 +34,7 @@ header {
 nav {
     background-color: rgb(246, 197, 238);
     padding: 16px;
-    text-align: center;
+    text-align: center; */
 }
 
 nav a {
@@ -93,4 +93,50 @@ footer p{
     text-align: center;
     font-size: 12px;
     font-weight: bold;
+}
+
+.atento{
+    background-color: cecbcc;
+    padding: 1em;
+    margin: 1.5 em 0;
+    border-color: #ccc;
+    border-width: 0.15em;
+    border style: solid;
+}
+
+.atentos img{
+    max-width: 80%;
+    display: block;
+}
+
+.atentos figcaption{
+    margin-top: 0.5em;
+    font-size: 0.9em;
+    font.weight: bold;
+}
+
+.expediente header{
+   background-image: url("img/ad.jpg");
+   background-size: cover;
+   background-position: center;
+}
+.expediente header h1{
+    color: black;
+}
+.expediente header h2{
+    color: black;
+}
+.expediente .volver a{
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 700;
+}
+.expediente nav {
+    background-color: rgb(93, 241, 118);
+    padding: 16px;
+    text-align: left;
+}
+.expediente .volver a:hover{
+    color: black
 }
