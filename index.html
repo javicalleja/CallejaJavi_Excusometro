@@ -21,6 +21,8 @@
         <a href="#instrucciones">Instrucciones</a>
         <a href="#como-funciona">¿Como funciona?</a>
         <a href="#estado-del-sistema">Estado del sistema</a>
+        <a href="#registro">Registro de excusas</a>
+        <a href="#estado-del-sistema">Estado del sistema</a>
     </nav>
 
     <main>
@@ -51,7 +53,64 @@
                 <li>Proporcionar un diagnóstico</li>
             </ol>
         </section>  
+
+        <section id="registro">
+            <h2>Registro de excusas</h2>
+            <p>Excusas registradas en el sistema.</p>
+            <form class="form-excusa" action="">
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input id="nombre" type="text" required minlength="2" maxlength="50">
+                </div>
+                <div class="campo">
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" required>
+                </div>
+                <div class="campo">
+                    <label for="fecha">Fecha:</label>
+                    <input id="fecha" type="date" required>
+                </div>
+                <div class="campo">
+                    <label for="drama">Nivel de drama:</label>
+                    <select name="drama" id="drama" required>
+                        <option value="">Selecciona un nivel</option>
+                        <option value="bajo">Bajo</option>
+                        <option value="medio">Medio</option>
+                        <option value="alto">Alto</option>
+                    </select>
+                </div>
+                <fieldset class="campo">
+                    <legend>Tipo de excusa:</legend>
+                    <label for="">
+                        <input type="radio" name="tipo" value="academica" required>
+                        Académica
+                    </label>
+                    <label for="">
+                        <input type="radio" name="tipo" value="academica" required>
+                        Problema tecnico
+                    </label>
+                    <label for="">
+                        <input type="radio" name="tipo" value="academica" required>
+                        Problema personal
+                    </label>
+                </fieldset>
+                <div class="campo">
+                    <label for="">
+                        <input type="checkbox" name="aceptar" required>
+                        Confirmo mi excusa
+                    </label>
+                </div>
+                <div class="campo">
+                    <label for="excusa">Declaracion completa:</label>
+                    <textarea id="excusa" rows="6" minlength="0" maxlength="500" required></textarea>
+                </div>
+                <button type="submit">Enviar excusa</button>
+            </form>
+        </section>
+
         <section id="estado-del-sistema">
+            <h2>Estado del sistema</h2>
+            <p>El sistema está en funcionamiento normal.</p>
             <div class="panel-estado">
                 <div class="dato-estado">
                     <span class="etiqueta">Sistema</span>
@@ -66,8 +125,6 @@
                     <span class="valor">1</span>
                 </div>
             </div>
-            <h2>Estado del sistema</h2>
-            <p>El sistema está en funcionamiento normal.</p>
         </section>
     </main>
 
